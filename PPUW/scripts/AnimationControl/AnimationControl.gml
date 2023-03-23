@@ -5,6 +5,7 @@ function AnimationControl(){
 				if (hspeed == 0) { // TODO: This doesnt work perfectly until walking animations are implemented
 					SetSprite(sp_idle);
 				} else {
+					SetSprite(sp_idle);
 					// this is where forward or backward walking animations could be integrated
 				} // this is where crouching animations might go
 			} // this is where we could put falling animations
@@ -15,9 +16,9 @@ function AnimationControl(){
 				exit;
 			}
 			
-			if (grounded) {
-				SetSprite(sp_attack[atk_type]);
-			}
+			//if (grounded) {
+			SetSprite(sp_attack[atk_type]);
+			//}
 			can_attack = false;
 			break;
 			

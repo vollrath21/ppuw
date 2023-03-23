@@ -3,6 +3,4 @@ function HitHandler(owner, effect, damage, xoffset, yoffset){
 	hit.owner = owner;
 	hit.effect = effect;
 	hit.damage = damage;
-	hit.xoffset = xoffset;
-	hit.yoffset = yoffset;
 }

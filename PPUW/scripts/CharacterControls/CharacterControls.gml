@@ -25,8 +25,7 @@ function CharacterControls(){
 			if kcp(punch) {
 				SetAttack(ATK_Punch);
 				break;
-			}
-			else if kcp(kick){
+			} else if kcp(kick){
 				SetAttack(ATK_Kick);	
 				break;
 			}
@@ -40,8 +39,6 @@ function CharacterControls(){
 		}
 		
 		// if the animation is over, the attack should end
-		// we dont have an animation though so somehow we wanna track like 10-20 frames and then end it?
-		// not sure if the attack sprite plays at the moment
 		if (AnimEnd()) { 
 			state = STATE_FREE;
 		}
