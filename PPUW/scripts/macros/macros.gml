@@ -6,6 +6,9 @@
 #region // character UID's
 #macro CHAR_BALDWIN		0
 #macro CHAR_CPW			1
+#macro CHAR_IRIS		2
+#macro CHAR_KELLY		3
+#macro CHAR_ROMIG		4
 #endregion
 
 #region // variables

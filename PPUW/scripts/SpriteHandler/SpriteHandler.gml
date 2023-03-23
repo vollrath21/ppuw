@@ -16,6 +16,24 @@ function SpriteHandler(){
 			sp_attack = [CPW_Punch, CPW_Kick];
 			attack_indexes = [[3],[7]];
 		break;
+		
+		case CHAR_IRIS:
+			sp_idle = Iris_Idle;
+			sp_attack = [Iris_Punch, Iris_Kick];
+			attack_indexes = [[3],[7]];
+		break;
+		
+		case CHAR_KELLY:
+			sp_idle = Kelly_Idle;
+			sp_attack = [Kelly_Punch, Kelly_Kick];
+			attack_indexes = [[3],[7]];
+		break;
+		
+		case CHAR_ROMIG:
+			sp_idle = Romig_Idle;
+			sp_attack = [Romig_Punch, Romig_Kick];
+			attack_indexes = [[3],[7]];
+		break;
 	}
 
 	sprite_index = sp_idle;

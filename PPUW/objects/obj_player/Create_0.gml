@@ -1,15 +1,15 @@
 /// @description Variables
 
 // stats
-hp = 200	// this is hp current default
+hp = 200;	// default
 			// max hp is in macros
-
+			// actual hp is set in obj_controller initialization
 
 hspeed = 0;				// Horizontal speed
 vspeed = 0;				// Vertical speed 
 grav = GRAVITY_FORCE;	// Specifically not using built-in gravity because it was finnicky
 
-character = CHAR_BALDWIN;	// default for initialization
+character = CHAR_KELLY;	// default for initialization, overridden in controller obj
 controller = CONT_P1;
 
 opponent = noone;
