@@ -1,5 +1,10 @@
 /// @description Variables
 
+// stats
+hp = 200	// this is hp current default
+			// max hp is in macros
+
+
 hspeed = 0;				// Horizontal speed
 vspeed = 0;				// Vertical speed 
 grav = GRAVITY_FORCE;	// Specifically not using built-in gravity because it was finnicky

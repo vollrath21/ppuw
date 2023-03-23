@@ -1,7 +1,7 @@
 function AnimationControl(){
 	switch(state){
 		case STATE_FREE:
-			if (landed) { // later this will need to also include: && !(crouched)
+			if (grounded) { // later this will need to also include: && !(crouched)
 				if (hspeed == 0) { // TODO: This doesnt work perfectly until walking animations are implemented
 					SetSprite(sp_idle);
 				} else {

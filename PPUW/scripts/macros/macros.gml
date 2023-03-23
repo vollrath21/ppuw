@@ -13,6 +13,7 @@
 #macro WALK_SPD			6
 #macro RUN_SPD			WALK_SPD*2
 #macro JUMP_SPD			-15
+#macro MAX_HP			200
 #endregion
 
 #region // states

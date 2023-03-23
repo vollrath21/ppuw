@@ -1,6 +1,6 @@
 function CharacterControls(){
 	if (grounded){
-		image_xscale = (opponent.x>x)?1:-1;	// binary operator to flip sprites to face opponent
+		image_xscale = (opponent.x>x)?1:-1;	// flip sprites to face opponent
 	}
 	
 	
@@ -22,6 +22,7 @@ function CharacterControls(){
 			}else{
 			// things Players can do in the air
 			}
+			
 			// attacks
 			if kcp(punch) {
 				SetAttack(ATK_Punch);
@@ -34,6 +35,8 @@ function CharacterControls(){
 		break;
 		
 	case STATE_ATTACK:
+	
+		// Players shouldn't be moving while attacking
 		if (grounded){
 			hspeed = 0;
 		}
