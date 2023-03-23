@@ -12,8 +12,7 @@ kick =	(controller=CONT_P1)?ord("K"):vk_numpad8;
 CharacterControls();
 
 // Animation Control
-// much later into the process, this is where things like walking animations...
-// ...would be called in its own script
+AnimationControl();
 
 // Physics
 Collisions();

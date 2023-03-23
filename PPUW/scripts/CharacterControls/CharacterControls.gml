@@ -1,13 +1,11 @@
 function CharacterControls(){
-	if (grounded){
-		image_xscale = (opponent.x>x)?1:-1;	// flip sprites to face opponent
-	}
-	
-	
 	switch(state){
 		case STATE_FREE:
 			can_attack = true;
 			if (grounded){
+				// flip sprites to face opponent
+				image_xscale = (opponent.x>x)?1:-1;	
+				
 				if !(crouched){
 					// if both keys are held, dont move
 					hspeed = WALK_SPD*(kc(right)-(kc(left)));
@@ -17,7 +15,7 @@ function CharacterControls(){
 				
 				if kcp(up){ // Jump
 					vspeed = JUMP_SPD;
-					landed = false;
+					grounded = false;
 				}
 			}else{
 			// things Players can do in the air

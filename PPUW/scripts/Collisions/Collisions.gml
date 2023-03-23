@@ -6,8 +6,6 @@ function Collisions(){
 	// manual gravity
 	vspeed += grav;
 	
-	
-	
 	// horizontal collisions
 	if place_meeting(x + hspeed, y, obj_ground) {
 		while !place_meeting(x+sign(hspeed), y, obj_ground) {

@@ -14,16 +14,12 @@ function AnimationControl(){
 			if (!can_attack){
 				exit;
 			}
+			
 			if (grounded) {
-				//if (crouched) {
-					// TODO: SetSprite( CROUCHED ATTACK )
-				//} else {
-					// TODO: Why doesn't this work?
-					SetSprite(sp_attack[atk_type]);
-				}
-				can_attack = false;
+				SetSprite(sp_attack[atk_type]);
+			}
+			can_attack = false;
 			break;
-			//}
 			
 	}
 }
