@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_ground",
   "spriteId": {
-    "name": "Sprite6",
-    "path": "sprites/Sprite6/Sprite6.yy",
+    "name": "spr_solid",
+    "path": "sprites/spr_solid/spr_solid.yy",
   },
   "solid": true,
   "visible": false,

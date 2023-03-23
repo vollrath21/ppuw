@@ -1,14 +1,17 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_player",
-  "spriteId": null,
+  "name": "obj_hitbox",
+  "spriteId": {
+    "name": "spr_hitbox",
+    "path": "sprites/spr_hitbox/spr_hitbox.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": {
-    "name": "Baldwin_Idle",
-    "path": "sprites/Baldwin_Idle/Baldwin_Idle.yy",
+    "name": "spr_hitbox",
+    "path": "sprites/spr_hitbox/spr_hitbox.yy",
   },
   "persistent": false,
   "parentObjectId": null,
@@ -26,8 +29,7 @@
   "physicsShapePoints": [],
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_hitbox","path":"objects/obj_hitbox/obj_hitbox.yy",},},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],

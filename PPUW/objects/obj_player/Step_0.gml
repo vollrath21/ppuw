@@ -14,5 +14,8 @@ CharacterControls();
 // Animation Control
 AnimationControl();
 
+// Hitbox Mechanics
+HitDetection();
+
 // Physics
 Collisions();
