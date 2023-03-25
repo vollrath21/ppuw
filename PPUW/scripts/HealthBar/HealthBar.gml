@@ -4,7 +4,7 @@ function HealthBar(){
 	var sp_width = sprite_get_width(spr_healthBar);
 	var sp_height = sprite_get_height(spr_healthBar);
 	var scale = 6;
-	var sp2_width = browser_width; // view_wport[0] will be better if ever we switch to viewports for scrolling rooms
+	var sp2_width = room_width; // view_wport[0] will be better if ever we switch to viewports for scrolling rooms
 	
 	// Player 1 health bar
 	draw_sprite_ext(spr_healthBar,		0, x_margin, y_margin, scale, scale, 0, c_white,	1); // primary image
