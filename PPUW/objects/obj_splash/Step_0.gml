@@ -3,9 +3,3 @@
 if (kcp(vk_enter) && room==splash){
 	room_goto_next();
 }
-
-
-
-
-
-
