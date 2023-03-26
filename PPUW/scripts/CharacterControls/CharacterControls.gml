@@ -8,7 +8,7 @@ function CharacterControls(){
 				
 				if !(crouched){
 					// if both keys are held, dont move
-					hspeed = WALK_SPD*(kc(right)-(kc(left)));
+					hspeed = pspeed*WALK_SPD*(kc(right)-(kc(left)));
 				} else {
 					hspeed = 0;	
 				}

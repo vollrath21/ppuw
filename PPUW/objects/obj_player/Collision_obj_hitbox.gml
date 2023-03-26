@@ -4,6 +4,6 @@ if (other.owner == self){
 	exit;
 } else {
 
-hp-=other.damage;
+hp-= pdamage * other.damage;
 with other instance_destroy();
 }

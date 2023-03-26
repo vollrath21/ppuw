@@ -1,8 +1,11 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_controller",
-  "spriteId": null,
+  "name": "obj_powerup",
+  "spriteId": {
+    "name": "speedPowerup",
+    "path": "sprites/speedPowerup/speedPowerup.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
@@ -20,12 +23,13 @@
   "physicsFriction": 0.2,
   "physicsStartAwake": true,
   "physicsKinematic": false,
-  "physicsShapePoints": [],
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
+  "physicsShapePoints": [
+    {"x":0.0,"y":0.0,},
+    {"x":476.0,"y":0.0,},
+    {"x":476.0,"y":345.0,},
+    {"x":0.0,"y":345.0,},
   ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
