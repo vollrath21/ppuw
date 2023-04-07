@@ -1,2 +1,2 @@
-/// @description Insert description here
+/// @description Revert player speed to normal
 pspeed=1;
