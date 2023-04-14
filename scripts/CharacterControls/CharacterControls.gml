@@ -14,7 +14,7 @@ function CharacterControls(){
 			if (grounded){
 				// flip sprites to face opponent
 				image_xscale = (opponent.x>x)?1:-1;	
-				if kcp(block)
+				if keyboard_check_direct(block)
 				{
 					pblock = 3;
 					hspeed=0;
